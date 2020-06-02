@@ -1,0 +1,97 @@
+@media screen and (max-width: 575px) {
+  .header i {
+    font-size: 30px;
+    margin: 10% 5%;
+  }
+  .introduce {
+    font-size: 30px;
+  }
+  .introduce p {
+    margin-top: 20%;
+  }
+  button {
+    width: 50%;
+    margin-top: 30%;
+  }
+  .big-image img {
+    margin: 10%;
+  }
+  .menu {
+    display: block;
+  }
+  .item {
+    margin: 10% 0;
+    flex: 1;
+  }
+  .item_left {
+    margin-left: 0%;
+}
+  .services h4 {
+    font-size: 50px;
+  }
+  .services h5 {
+    margin-top: 15%;
+  }
+  .container_image {
+    margin-top: 15%;
+  }
+  .list_team {
+    margin-top: 5%;
+  }
+  .narrative h3 {
+    font-size: 50px;
+  }
+  .list_image h4 {
+    font-size: 17px;
+  }
+  .list_image p {
+    font-size: 17px;
+  }
+  .say {
+    margin-top: 15%;
+  }
+  .say h3 {
+    font-size: 50px;
+  }
+  .say-1 {
+    margin-top: 10%;
+  }
+  .phone {
+    margin-top: 15%;
+  }
+  .phone h2 {
+    font-size: 40px;
+  }
+  .address {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  button {
+    width: 60%;
+  }
+  .header i {
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+  .list_image h4 {
+    font-size: 12px;
+  }
+  .list_image p {
+    font-size: 12px;
+  }
+  .address {
+      display: block;
+  }
+  .address-1 {
+      width: 100%;
+  }
+  .address-2 {
+      width: 100%;
+      margin-top: 10%;
+  }
+  .item_left {
+    margin-left: 0%;
+}
+}
