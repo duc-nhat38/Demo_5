@@ -10,7 +10,7 @@
     margin-top: 20%;
   }
   button {
-    width: 50%;
+    width: 60%;
     margin-top: 30%;
   }
   .big-image img {
@@ -69,7 +69,8 @@
 
 @media screen and (max-width: 375px) {
   button {
-    width: 60%;
+    width: 70%;
+    font-size: 13px;
   }
   .header i {
     letter-spacing: 5px;
