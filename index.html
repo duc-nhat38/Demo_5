@@ -23,8 +23,11 @@
                 <button type="submit">Get in touch</button>
             </div>
         </div>
-        <div class="big-image">
-            <img src="/img/big-dog.jpg" alt="big dog">
+        <div class="container_image">
+                <button id="btn_left" onclick="onclickLeft()"><</button>
+                <button id="btn_right" onclick="onclickRight()">></button>
+                <div class="slide_image" id="slide_image"></div>
+                
         </div>
         <div class="menu">
             <div class="item">
@@ -66,17 +69,11 @@
             </div>
             <button type="submit">Get in touch</button>
         </div>
-        <div class="container_image">
-            <div class="image_left">
-                <div id="image-1">
-                    <img src="/img/dog2.jpg" alt="photo dog">
-                </div>
-                <div id="image-2">
-                    <img src="/img/dog7.jpg" alt="photo dog">
-                </div>
-            </div>
-            <div class="image_right">
-                <img src="/img/dog3.jpg" alt="photo dog">
+        <div class="video">
+            <div class="small_video">
+                <video controls preload="none">
+                    <source src="/img/Cắt tỉa lông chó poodle.mp4">
+                </video>
             </div>
         </div>
         <div class="list_team">
@@ -165,6 +162,7 @@
             </div>
         </div>
     </div>
+    <script src="/javaScript.js"></script>
 </body>
 
 </html>
